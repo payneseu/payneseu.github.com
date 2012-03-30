@@ -5,7 +5,11 @@ require 'time'
 
 SOURCE = "."
 CONFIG = {
+<<<<<<< HEAD
   'version' => "0.2.13",
+=======
+  'version' => "0.2.9",
+>>>>>>> origin/master
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
@@ -62,7 +66,10 @@ task :post do
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
+<<<<<<< HEAD
     post.puts 'description: ""'
+=======
+>>>>>>> origin/master
     post.puts "category: "
     post.puts "tags: []"
     post.puts "---"
@@ -89,7 +96,10 @@ task :page do
     post.puts "---"
     post.puts "layout: page"
     post.puts "title: \"#{title}\""
+<<<<<<< HEAD
     post.puts 'description: ""'
+=======
+>>>>>>> origin/master
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
