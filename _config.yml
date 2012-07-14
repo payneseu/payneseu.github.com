@@ -81,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : payneseusblog
+      short_name : paynesblog
     livefyre :
       site_id : 123
     intensedebate :
