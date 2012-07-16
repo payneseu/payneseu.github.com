@@ -1,3 +1,5 @@
+require "jcode"
+$KCODE='utf8'
 require "rubygems"
 require 'rake'
 require 'yaml'
@@ -41,11 +43,16 @@ module JB
 end #JB
 
 # Usage: rake post title="A Title" [date="2012-02-09"]
+# rake post title="ttt" category="ccc" /  ctg="ccc"
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  ### add category
+  category = ENV["category"] || ENV["ctg"] || "others"
+  slug_ctg = category.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  ##### add by payne
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
   rescue Exception => e
@@ -63,11 +70,12 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
-    post.puts "category: "
+    post.puts "category: \"#{category.gsub(/-/,' ')}\""
     post.puts "tags: []"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
+	exec "vim + #{filename}"
 end # task :post
 
 # Usage: rake page name="about.html"
@@ -93,6 +101,7 @@ task :page do
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
+	exec "vim #{filename}"
 end # task :page
 
 desc "Launch preview environment"
@@ -306,3 +315,5 @@ end
 
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
+
+

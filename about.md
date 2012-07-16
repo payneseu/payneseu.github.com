@@ -15,6 +15,19 @@ description: ""
 + **Communication**：我的专业相关。
 + **a生活杂感** 
 
+### 我正在做 ...
++ 构建我的博客，托管到 GitHub 上面
++ MarkDown
++ Jekyll
+
+### 我正在读 ...
++ July-11 ~ July-18
++ July-18 ~ July-30
+fjoef
+ofejofe
+oifjoef
+ofeijfo
+
 ### To Do List
 
 在学校读书的时间不多了，明年的这个时候也要工作了，希望自己能够好好的利用这段宝贵的时间，多学些东西。

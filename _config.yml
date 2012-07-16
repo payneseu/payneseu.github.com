@@ -1,6 +1,7 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+#permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:title.html
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
@@ -9,8 +10,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : "Payne's Personal Wiki"
-tagline: Site Tagline
+title : "Payne's Blog"
+tagline: "Go Ahead!"
 author :
   name : Payne
   email : lipenghbtc@gmail.com
@@ -73,15 +74,18 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  home_path: /home.md
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
-  #
+  # these are some comments widget, Disqus, Intese Debate, livefyre, and Facebook
+  # and I have registered the disqus ,
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+ #     short_name : jekyllbootstrap
+      short_name : paynesblog
     livefyre :
       site_id : 123
     intensedebate :
@@ -99,7 +103,8 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+#        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-33382404-1'
     getclicky :
       site_id : 
     mixpanel :
