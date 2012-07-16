@@ -1,0 +1,11 @@
+
+  {% if recent_posts.first[0] == null %}
+    {% for post in recent_posts%} 
+    	<li><a href="{{ BASE_PATH }}{{ post.url }}" > {{ post.title }} </a></li>
+    {% endfor %}
+  {% else %}
+    {% for post in posts_list %} 
+    	<li><a href="http://www.baidu.com"> {{ post.title }} </a></li>
+    {% endfor %}
+  {% endif %}
+{% assign posts_list = nil %}
