@@ -23,8 +23,7 @@ helo, this page is about some useful links.
 * [linux common command](http://www.pixelbeat.org/cmdline.html) 
 * [Linux 命令行技巧 ( 上面一个的中文版 )](http://www.pixelbeat.org/cmdline_zh_CN.html)
 * [more linux command](http://www.pixelbeat.org/docs/linux_commands.html) 
-	
-	强烈推荐上面两个
+* [commandlinefu.com](http://www.commandlinefu.com/commands/browse/sort-by-votes): 一个命令的投票网站，里面有很多别人推荐的好的命令组合。
 
 <br />
 _.... 待更新 _ 
