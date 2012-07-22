@@ -15,6 +15,9 @@ helo, this page is about some useful links.
 
 #### 技术大牛
 * <http://www.pixelbeat.org/>
+* <http://unix-school.blogspot.in/>
+* <http://www.catonmat.net/projects/>
+* <http://linuxcommand.org/index.php>
 
 ### Git
 * [Pro Git 中文 ](http://git-scm.com/book/zh)

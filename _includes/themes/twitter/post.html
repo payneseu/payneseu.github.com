@@ -17,7 +17,7 @@
 			{% include JB/tags_list2 %}
 			{% endunless %}
 			| <li class="icon-category"</li>
-			Category: {{ page.category }}
+			Category: <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref"> {{ page.category }}</a>
 		</span>
 	</div>
 	<hr>

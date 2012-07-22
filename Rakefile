@@ -101,7 +101,7 @@ task :page do
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
-	exec "vim #{filename}"
+	exec "vim + #{filename}"
 end # task :page
 
 desc "Launch preview environment"

@@ -4,17 +4,9 @@ font-size: 12px;
 line-height: 1.8em;
 }
 .span12{ width: 630px;}
-.navbar .nav{
-	float:right;
-	margin-right:15px;
-}
-.navbar .brand{
-	margin-left: 0px;
-}
-.page-header{
-	background-color: #F5F5F5;
-	margin: -15px -15px 10px -15px; 
-}
+.navbar .nav{ float:right; margin-right:15px; }
+.navbar .brand{ margin-left: 0px; }
+.page-header{ background-color: #F5F5F5; margin: -15px -15px 10px -15px; }
 #tagline{
 	color: #FFFFFF;
 	display: block;
@@ -42,42 +34,26 @@ line-height: 1.8em;
 	line-height: 1.6em
 /*	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;*/
 }
-#main{ 
-	float: left;
-	background-color: #FFFFFF; 
-	padding: 15px; 
+#main{ float: left; background-color: #FFFFFF; padding: 15px; }
+.span8{ background-color: #FFFFFF; padding: 15px; }
+#sidebar{ float: right; background-color: #F5F5F5; margin-left: 0px; width: 290px; }
+.clear{ clear: both; } 
+#sidebar div{ margin: 10px 10px 10px 10px; padding: 10px 10px 10px 10px; }
+#sidebar ol{ margin-left: 20px }
+#sidebar ol li{ list-style: none outside none; line-height: 18px; }
+#sidebar ol p{ margin: 0px; }
+#home-article{ padding: 10px 10px 0 40px; }
+#dsq-content h3 { font-size: 14px; }
+code { color: #333333; padding: 0 3px 2px; }
+pre {
+	margin: 10px;
+	padding: 12px;
 }
-.span8{
-	background-color: #FFFFFF; 
-	padding: 15px; 
+blockquote{
+	font-family: Arial,Helvetica,sans-serif
+	background-color: #F5F5F5
 }
-#sidebar{ 
-	float: right;
-	background-color: #F5F5F5; 
-	margin-left: 0px;
-	width: 290px;
-}
-.clear{
-	clear: both;
-}
-
-#sidebar div{
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-}
-#sidebar ol{
-	margin-left: 20px
-}
-#sidebar ol li{
-	list-style: none outside none;
-	line-height: 18px;
-}
-#sidebar ol p{
-	margin: 0px;
-}
-#home-article{
-	padding: 10px 10px 0 40px;
-}
-#dsq-content h3 {
-	font-size: 14px;
+blockquote p{
+	font-size: 12px;
+	font-style: italic;
 }
