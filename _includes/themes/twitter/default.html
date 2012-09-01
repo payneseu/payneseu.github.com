@@ -28,11 +28,10 @@
 	
 	<script>
 		$(document).ready(function(){
-
-//		$('#linksbar a').attr('target','_blank');
-		$("a[href^='http://']").attr('target','_blank');
-//		$("[href^='/']").removeAttr('target');
-	});
+	//		$('#linksbar a').attr('target','_blank');
+			$("a[href^='http://']").attr('target','_blank');
+	//		$("[href^='/']").removeAttr('target');
+		});
 	</script>
 
 
@@ -42,7 +41,7 @@
 	<div class="navbar-inner">
 		<div class="container">
 			<a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-				<div id="tagline">{{ site.tagline }}</div> 
+			<div id="tagline">{{ site.tagline }}</div> 
 			<ul class="nav">
 			{% assign pages_list = site.pages %}
 			{% assign group = 'navigation' %}
@@ -93,8 +92,6 @@
           and <a href="http://qizhanming.com/" target="_blank">Zhanming's blog</a>
         </p>
       </footer>
-
-
 	  {% include JB/analytics %} 
   </body>
 </html>

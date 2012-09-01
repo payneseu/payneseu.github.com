@@ -15,3 +15,32 @@ group: navigation
 3. `$_` bash 中的特殊参数， 保存前一个执行命令的最后一个参数。例如：`mkdir aaa/bbb/ccc && cp xx.c $_`
 
 4. linux 查找命令  `apropos`  等同于 `man -k`
+
+5. linux tcp/ip 命令 netcat
+
+6. htop 类似于 top
+
+7. 命令 cut & paste
+
+
+8. 禁止访问 某个ip 的端口。 iptables
+	iptables -A OUTPUT  -d 10.94.xx.xx  -p tcp --dport 33133 -j REJECt
+	iptables -F 清除所有规则
+	iptables -L 列出所有规
+
+	多个端口 -m --dports
+	反转匹配 !
+
+9. 查看开启的端口
+	netstats -tulp
+	nmap
+
+10. 获取 ipv4 地址 
+	
+	ip addr show eth0 | awk '/inet / {FS = "/"; $0 = $2; print $1}'
+
+11. 删除结尾换行回车符
+
+	tr -d '\n'
+
+
