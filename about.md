@@ -40,7 +40,7 @@ description: ""
 xxxxxxxxxxxxxxxxxxxxxxxx
 做个人简历主页，类似于 www.ee.kth.se/~jinfeng/
 _未完待续..._ 
-xxx:
+xxxxxxx:
 -----
 This is my personal wiki, host on [github.com](http://github.com).
 Please visit [http://payneseu.github.com](http://payneseu.github.com)
