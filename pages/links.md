@@ -20,13 +20,19 @@ helo, this page is about some useful links.
 * <http://linuxcommand.org/index.php>
 
 ### Git
-* [Pro Git 中文 ](http://git-scm.com/book/zh)
+* [Pro Git 中文 ](http://iissnan.com/progit/)
 
 ### Bash
 * [linux common command](http://www.pixelbeat.org/cmdline.html) 
 * [Linux 命令行技巧 ( 上面一个的中文版 )](http://www.pixelbeat.org/cmdline_zh_CN.html)
 * [more linux command](http://www.pixelbeat.org/docs/linux_commands.html) 
 * [commandlinefu.com](http://www.commandlinefu.com/commands/browse/sort-by-votes): 一个命令的投票网站，里面有很多别人推荐的好的命令组合。
+
+### Vim
+* [VimAwersome](http://vimawesome.com/)
+
+### Jekyll
+* [QuickStart](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 <br />
 _.... 待更新 _ 
