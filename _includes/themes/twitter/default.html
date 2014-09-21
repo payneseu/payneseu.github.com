@@ -63,18 +63,21 @@
 				</ol>
 			</div>
 			<div id="recentpostbar">  
-				<h5>Recent Posts</h5>
+				<h5>Projects</h5>
 				<ol>
-				{% assign recent_posts = site.posts %}
+<!--				{% assign recent_posts = site.posts %}
 				{% include JB/recent_posts %}
+--!>
 				</ol>
 			</div>
 			<div id="linksbar">
 				<h5>Links</h5>
+				<ol>
 				{% capture links %}
 				{% include links.md %}
 				{% endcapture %}
 				{{ links | markdownify }}
+				</ol>
 			</div>
 			</div>
 			<div class="clear">
