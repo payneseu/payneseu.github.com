@@ -1,4 +1,5 @@
-require "jcode"
+#require "jcode"
+require 'jcode' if RUBY_VERSION < '1.9'
 $KCODE='utf8'
 require "rubygems"
 require 'rake'
